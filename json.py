@@ -19,7 +19,8 @@ userJSON=json.dumps(users,default=user_encode)
 print(userJSON)
 '''
 
-'''the way to converto json file to python 
+'''load
+    the way to converto json file to python 
     with open('person.json','r') as file:
     person=json.load(file)
     print(person)
